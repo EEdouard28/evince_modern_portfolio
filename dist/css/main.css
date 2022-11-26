@@ -212,7 +212,7 @@ main {
       .boxes div:hover span {
         color: #000; }
 
-.btn, .btn-dark, .btn-light {
+.btn, .btn-dark, .btn-light, .projects .btn-dark, .projects .btn-light {
   display: block;
   padding: 0.5rem 1rem;
   border: 0;
@@ -271,43 +271,44 @@ main {
       opacity: 0.5;
       border-color: #eece1a;
       transition: all 0.5s ease-out; }
-
-.boxes {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
-  margin-top: 1rem; }
-  .boxes div {
-    font-size: 2rem;
-    border: 3xp #fff solid;
-    padding: 1.5rem 2.5 rem;
-    margin-bottom: 3rem;
-    transition: all 0.5s ease-out; }
-
-.btn, .btn-dark, .btn-light {
-  display: block;
-  padding: 0.5rem 1 rem;
-  border: 0;
-  margin-bottom: 0.3rem; }
-  .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #eece1a;
-    color: set-text-color #eece1a; }
-
-.btn-dark {
-  background: black;
-  color: #fff; }
-
-.btn-light {
-  background: #c4c4c4;
-  color: #333; }
-
-#main-footer {
-  text-align: center;
-  padding: 1rem;
-  background: #2b2b2b;
-  color: #fff;
-  height: 60px; }
+      .projects img:hover:hover {
+        padding: 0.5rem 1.5rem;
+        background: #eece1a;
+        color: #000; }
+        .projects img:hover:hover span {
+          color: #000; }
+  .projects .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1rem; }
+    .projects .boxes div {
+      font-size: 2rem;
+      border: 3xp #fff solid;
+      padding: 1.5rem 2.5 rem;
+      margin-bottom: 3rem;
+      transition: all 0.5s ease-out; }
+  .projects .btn, .projects .btn-dark, .projects .btn-light {
+    display: block;
+    padding: 0.5rem 1 rem;
+    border: 0;
+    margin-bottom: 0.3rem; }
+    .projects .btn:hover, .projects .btn-dark:hover, .projects .btn-light:hover {
+      background: #eece1a;
+      color: set-text-color #eece1a; }
+  .projects .btn-dark {
+    background: black;
+    color: #fff; }
+  .projects .btn-light {
+    background: #c4c4c4;
+    color: #333; }
+  .projects #main-footer {
+    text-align: center;
+    padding: 1rem;
+    background: #2b2b2b;
+    color: #fff;
+    height: 60px; }
 
 @media screen and (min-width: 1171px) {
   .projects {
