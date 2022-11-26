@@ -40,14 +40,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #373737;
+    background: #14293a;
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: #444;
+    background: #1A374D;
     transform: translate3d(0, 100%, 0);
     transition: all 0.5s ease-out; }
     .menu-branding.show {
@@ -57,14 +57,14 @@
       height: 205px;
       background: url("../img/portrait.jpg");
       border-radius: 50%;
-      border: solid 3px #eece1a; }
+      border: solid 3px #406882; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #eece1a; }
+      color: #406882; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -76,7 +76,7 @@
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
-      color: #eece1a; }
+      color: #406882; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -94,7 +94,7 @@
   box-sizing: border-box; }
 
 body {
-  background: #444;
+  background: #1A374D;
   color: #fff;
   height: 100%;
   margin: 0;
@@ -112,7 +112,7 @@ body {
       width: 100%;
       height: 100%;
       z-index: -1;
-      background: rgba(68, 68, 68, 0.9); }
+      background: rgba(26, 55, 77, 0.9); }
 
 h1,
 h2,
@@ -128,7 +128,7 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(73, 73, 73, 0.5); }
+    background: rgba(29, 60, 85, 0.5); }
 
 a {
   color: #fff;
@@ -140,7 +140,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #eece1a; }
+  color: #406882; }
 
 main {
   padding: 4rem;
@@ -151,7 +151,7 @@ main {
       padding: 0.4rem;
       transition: all 0.5s ease-out; }
       main .icons a:hover {
-        color: #eece1a; }
+        color: #406882; }
   main#home {
     overflow: hidden; }
     main#home h1 {
@@ -166,7 +166,7 @@ main {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
-    border: #eece1a 3px solid; }
+    border: #406882 3px solid; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
@@ -177,9 +177,9 @@ main {
   .about-info .job-3 {
     grid-area: job3; }
   .about-info .job {
-    background: #515151;
+    background: #204560;
     padding: 0.5rem;
-    border-bottom: #eece1a 5px solid; }
+    border-bottom: #406882 5px solid; }
 
 .projects {
   display: grid;
@@ -190,7 +190,7 @@ main {
     border: 3px #fff solid; }
     .projects img:hover {
       opacity: 0.5;
-      border-color: #eece1a;
+      border-color: #406882;
       transition: all 0.5s ease-out; }
 
 .boxes {
@@ -207,10 +207,10 @@ main {
     transition: all 0.5s ease-out; }
     .boxes div:hover {
       padding: 0.5rem 1.5rem;
-      background: #eece1a;
-      color: #000; }
+      background: #406882;
+      color: #fff; }
       .boxes div:hover span {
-        color: #000; }
+        color: #fff; }
 
 .btn, .btn-dark, .btn-light, .projects .btn-dark, .projects .btn-light {
   display: block;
@@ -218,21 +218,21 @@ main {
   border: 0;
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #eece1a;
-    color: #000; }
+    background: #406882;
+    color: #fff; }
 
 .btn-dark {
   background: black;
   color: #fff; }
 
 .btn-light {
-  background: #c4c4c4;
+  background: #8db8d9;
   color: #333; }
 
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #2b2b2b;
+  background: #0d1c27;
   color: #fff;
   height: 60px; }
 
@@ -245,7 +245,7 @@ main {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
-    border: #eece1a 3px solid; }
+    border: #406882 3px solid; }
     .about-info .bio-image .bio {
       grid-area: bio;
       font-size: 1.5rem; }
@@ -256,9 +256,9 @@ main {
     .about-info .bio-image .job-3 {
       grid-area: job3; }
     .about-info .bio-image .job {
-      background: #515151;
+      background: #204560;
       padding: 0.5rem;
-      border-bottom: #eece1a 5px solid; }
+      border-bottom: #406882 5px solid; }
 
 .projects {
   display: grid;
@@ -269,14 +269,14 @@ main {
     border: 3px #fff solid; }
     .projects img:hover {
       opacity: 0.5;
-      border-color: #eece1a;
+      border-color: #406882;
       transition: all 0.5s ease-out; }
       .projects img:hover:hover {
         padding: 0.5rem 1.5rem;
-        background: #eece1a;
-        color: #000; }
+        background: #406882;
+        color: #fff; }
         .projects img:hover:hover span {
-          color: #000; }
+          color: #fff; }
   .projects .boxes {
     display: flex;
     flex-wrap: wrap;
@@ -295,18 +295,18 @@ main {
     border: 0;
     margin-bottom: 0.3rem; }
     .projects .btn:hover, .projects .btn-dark:hover, .projects .btn-light:hover {
-      background: #eece1a;
-      color: set-text-color #eece1a; }
+      background: #406882;
+      color: set-text-color #406882; }
   .projects .btn-dark {
     background: black;
     color: #fff; }
   .projects .btn-light {
-    background: #c4c4c4;
+    background: #8db8d9;
     color: #333; }
   .projects #main-footer {
     text-align: center;
     padding: 1rem;
-    background: #2b2b2b;
+    background: #0d1c27;
     color: #fff;
     height: 60px; }
 
