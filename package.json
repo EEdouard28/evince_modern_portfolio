@@ -12,7 +12,7 @@
   "author": "Evince Edouard",
   "license": "MIT",
   "dependencies": {
-    "gh-pages": "^4.0.0",
+    "gh-pages": "^1.2.0",
     "node-sass": "^8.0.0"
   }
 }
