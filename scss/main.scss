@@ -79,7 +79,7 @@ main {
   grid-gap: 30px;
   grid-template-areas:
     'bioimage bio bio'
-    'job1 job2 job3';
+    'job1 job2 job3 skills';
   grid-template-columns: repeat(3, 1fr);
 
   .bio-image {
@@ -89,7 +89,7 @@ main {
     border: $secondary-color 3px solid;
   }
 
-  .bio {
+  .bio  {
     grid-area: bio;
     font-size: 1.5rem;
   }
