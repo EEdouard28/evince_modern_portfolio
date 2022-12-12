@@ -1,0 +1,18 @@
+{
+  "name": "evince_modern_portfolio",
+  "version": "1.0.0",
+  "description": "Responsive Portfolio Website",
+  "main": "index.js",
+  "homepage": "https://eedouard28.github.io/evince_modern_portfolio",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "Evince Edouard",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^1.2.0",
+    "node-sass": "^8.0.0"
+  }
+}
