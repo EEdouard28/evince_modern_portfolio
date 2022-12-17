@@ -265,6 +265,11 @@ main {
         color: #fff; }
         .projects img:hover:hover span {
           color: #fff; }
+  .projects #programming-skills {
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+    margin-right: 5px; }
   .projects .boxes {
     display: flex;
     flex-wrap: wrap;
