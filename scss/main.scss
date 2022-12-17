@@ -214,6 +214,9 @@ main {
 
 
 // Work/Projects
+
+
+
 .projects{
   display: grid;
   grid-gap: 20px;
@@ -238,12 +241,28 @@ main {
   }
 }
 
+#workcontainer {
+  // display: grid;
+  // grid-gap: 20px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+
+}
+
+
 #programming-skills {
   border-radius: 50px;
-  height: 40px;
-  width: 40px;
+  height: 20px;
+  width: 20px;
   margin-right: 5px;
+  
 }
+
+// .skill-icon {
+//   display: grid;
+//   grid-template-columns: 1fr 1fr 1fr;
+// }
 
 
 // contact page
